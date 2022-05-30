@@ -289,7 +289,7 @@
       <PreprocessorDefinitions>USE_SSE2;NOMINMAX;_WIN32_WINNT=0x0600;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>extern/lz4/lib;extern/re2</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-      <DisableSpecificWarnings>4996;4267;4244</DisableSpecificWarnings>
+      <DisableSpecificWarnings>4996;4267;4244;4819</DisableSpecificWarnings>
       <TreatWarningAsError>true</TreatWarningAsError>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
     </ClCompile>

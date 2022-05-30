@@ -71,7 +71,7 @@ static size_t printMatchLineColumn(unsigned int line, unsigned int column, unsig
 
 	const char* sepbeg = (options & SO_VISUALSTUDIO) ? "(" : ":";
 	const char* sepmid = (options & SO_VISUALSTUDIO) ? "," : ":";
-	const char* sepend = (options & SO_VISUALSTUDIO) ? "):" : ":";
+	const char* sepend = (options & SO_VISUALSTUDIO) ? ") " : " ";
 
 	if (options & SO_HIGHLIGHT) pos = printString(pos, kHighlightSeparator);
 	pos = printString(pos, sepbeg);
